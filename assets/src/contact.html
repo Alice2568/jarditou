@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="jarditou" content="pageaccueilcreationsitejarditou">
+        <title>formulaire Contact</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="img/jarditou_logo.jpg" alt="Logo jarditou" width="300" height="100">                 <h1 id="titre">Tout le jardin</h1>
+            <div style="color:white" id="ongletaccueil"><ul>
+                <li>Accueil</li>
+                <li>Tableau</li>
+                <li>Formulaire</li>
+            </ul></div>
+            <div class="promo" style="background-image: url(img/promotion.jpg);"></div>
+            
+
+        </header>
+        <h2>Contact</h2>
+        <hr>
+        <p>*Ces zones sont obligatoires</p>
+        
+        <form action="http://bienvu.net/script.php" method="post" id="formulaire">
+            <fieldset>
+            <legend>Vos coordonnées</legend>
+            <label for="nom">Votre nom*:</label><input type="text" name="votre nom" id="nom"><br>
+            <label for="prénom">Votre prénom*:</label><input type="text" name="votre prénom" id="prénom"><br>
+            <label for="sexe">Sexe*:</label><input type="radio" name="sexe" id="sexe" value="féminin">féminin
+            <input type="radio" name="sexe" value="masculin">masculin<br>
+            <label for="date">Cate de naissance*:</label><input type="date" name="ddn" id="date"><br>
+            <label for="codepostal">Code postal*:</label><input type="text" name="codepostal" id="codepostal"><br>
+            <label for="Adresse">Adresse:</label><input type="text" name="adresse" id="Adresse"><br>
+            <label for="ville">Ville:</label><input type="text" name="ville" id="ville"><br>
+            <label for="email">Email*:</label><input type="text" name="email" id="email" placeholder="dave.loper@afpa.fr"><br>
+            </fieldset><br>
+            <fieldset>
+                <legend>Votre demande</legend>
+                <label for="Sujet">Votre sujet*:</label>
+                <select id="Sujet">
+                    <option value="" selected>Veuillez selectionner un sujet</option>
+                    <option value="Mes commandes">Mes commandes</option>
+                    <option value="Question sur un produit">Question sur un produit</option>
+                    <option value="Réclamation">Réclamation</option>
+                    <option value="Autres">Autres</option>
+                </select><br>
+                <label for="votrequestion">Votre question*:</label><textarea name="votrequestion" rows="10" cols="50" id="votrequestion" placeholder="Votre question"></textarea>
+
+            </fieldset><br>
+            <input type="checkbox" name="accord" id="accord"><label for="accord">*J'accepte le traitement informatique de ce formulaire</label><br><br>
+            <button type="submit">envoyer</button><button type="reset">annuler</button>
+            
+
+        </form>
+<footer>
+    <ul style="color: white;">
+        <li>Mentions légales</li>
+        <li>Horaires</li>
+        <li>Plan du site</li>
+    </ul>
+</footer>
+    </body>
+</html>
+    

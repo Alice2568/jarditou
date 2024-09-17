@@ -1,0 +1,4 @@
+header>.ACTentete {background-color: black; -webkit-text-fill-color: white; background-size:cover;}
+footer {background-color: black; color: white;text-decoration: underline;text-decoration: white;}
+#acc,#Tab,#contact {text-decoration: underline; text-decoration-color: white;}
+body:not(header, footer) {background-color: grey; float: right;background-size: cover;}
