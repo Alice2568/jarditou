@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
 [class*="col-"] {
     background-color: rgb(179, 177, 177);
     float: right;
